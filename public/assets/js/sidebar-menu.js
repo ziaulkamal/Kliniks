@@ -6,7 +6,7 @@ $(".iconMenu-bar li").click(function () {
     $('.iconsidebar-menu').removeClass('iconbar-mainmenu-close');
   }
   $(this).addClass("open");
-  
+
 });
 
 $(function() {
@@ -14,8 +14,9 @@ $(function() {
   var url =  window.location.href;
   $(".iconMenu-bar li").removeClass("open");
   $(".iconbar-mainmenu li a").each(function() {
-    
+    console.log(url);
     newurl = url.trim();
+
     var strVal ="";
     var lastChar = newurl.slice(-1);
     if (lastChar == '/') {
@@ -23,7 +24,7 @@ $(function() {
         var lastindex = strVal.split("/");
         var module = lastindex[lastindex.length-1];
         if(module == 'ltr'){
-          url  = url +"index.html";
+          url  = url +"/";
         }
     }
 
