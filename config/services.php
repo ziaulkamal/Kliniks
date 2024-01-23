@@ -13,6 +13,9 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
+    'auth' => [
+        'url' => env('AUTH_URL'),
+    ],
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),

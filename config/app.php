@@ -4,6 +4,19 @@ use Illuminate\Support\Facades\Facade;
 
 return [
 
+    // Akses API Satu Sehat Prod
+    'access_credentials' => [
+        'client_id' => '37ISDRZj9EBUf9WPujky7HY2S6gKADpnLKqzuDdf63Vrnphc',
+        'client_secret' => 'QuqhjY8aK6COUnItyAl5EJKdyOTiE5pADg44GCtxtxvrefmdOU5wnd6S2WSYhzt3',
+    ],
+    // // Akses API Satu Sehat dev
+    // 'access_credentials' => [
+    //     'client_id' => 'XLGW4YEl5e1Bn5zhhSp08EiJF6nu8ABObBfkGFcdwsSmbOfE',
+    //     'client_secret' => 'pAj8ClyjO9FNHAb9aZADdv2kyGJYo928pmxfi25AblBYbE9HtS1meKLhFMFATzaE',
+    // ],
+
+
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
