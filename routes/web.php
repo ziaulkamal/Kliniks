@@ -11,3 +11,4 @@ use Illuminate\Support\Facades\Route;
 // Route::get('patient/search/{value}', [ApiSatuSehat::class, 'tokenPatient']);
 Route::get('patient/search/cardNumber/{identityCardNumber}', [FeatureController::class, 'searchPatientByNik']);
 Route::get('patient/search/cardBadge/{name}/{birthDate}/{gender}', [FeatureController::class, 'searchPatientByName']);
+Route::get('patient/send', [FeatureController::class, 'post_patient']);

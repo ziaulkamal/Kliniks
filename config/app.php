@@ -6,8 +6,8 @@ return [
 
     // Akses API Satu Sehat Prod
     'access_credentials' => [
-        'client_id' => '37ISDRZj9EBUf9WPujky7HY2S6gKADpnLKqzuDdf63Vrnphc',
-        'client_secret' => 'QuqhjY8aK6COUnItyAl5EJKdyOTiE5pADg44GCtxtxvrefmdOU5wnd6S2WSYhzt3',
+        'client_id' => 'OuI7tj9DAEF1Ona7LSkFwA8J6Y936utjBuo3CuDhKhdGAJsf',
+        'client_secret' => 'BGK6qewlNIFRgt4kIMjtKKwAFQIAARsZiAdM0GahOipyS9isKyOJUF8hM0tGcXMV',
     ],
     // // Akses API Satu Sehat dev
     // 'access_credentials' => [
