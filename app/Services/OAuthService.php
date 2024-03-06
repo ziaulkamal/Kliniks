@@ -21,13 +21,13 @@ class OAuthService
 
         $options = [
             'form_params' => [
-                'client_id' => $credentials['client_id'],
-                'client_secret' => $credentials['client_secret'],
+                'client_id' => env('SATUSEHAT_CLIENT_ID'),
+                'client_secret' => env('SATUSEHAT_CLIENT_SECRET'),
             ]
         ];
 
         try {
-            $response = $client->post('https://api-satusehat.kemkes.go.id/oauth2/v1/accesstoken?grant_type=client_credentials', [
+            $response = $client->post(env('AUTH_URL').'/oauth2/v1/accesstoken?grant_type=client_credentials', [
                 'headers' => $headers,
                 'form_params' => $options['form_params']
             ]);
